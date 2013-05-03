@@ -9,6 +9,7 @@ import threading
 import Queue
 import time
 
+
 class Producer(threading.Thread):
     __taskQueue = Queue.Empty
     __taskNum = 1
